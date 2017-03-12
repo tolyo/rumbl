@@ -11,3 +11,4 @@ defmodule Rumbl.Repo.Migrations.CreateUser do
     create unique_index(:users, [:username])
   end
 end
+
