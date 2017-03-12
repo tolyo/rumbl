@@ -1,5 +1,6 @@
 defmodule Rumbl.Router do
   use Rumbl.Web, :router
+  import Rumbl.Auth
 
   pipeline :browser do
     plug :accepts, ["html"]
